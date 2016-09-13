@@ -1,0 +1,17 @@
+<h1>Please Enter a Place That You've Been</h1>
+#if ($places)
+  <ul>
+    #foreach ($place in $places)
+    <li>$place.getDescription()</li>
+    #end
+  </ul>
+#else
+  <p>No places!</p>
+#end
+<form action="/places" method="post">
+  <div class='form-group'>
+    <label for='user-place'>New Place:</label>
+    <input id='user-place' name='user-place' class='form-control' type='text'>
+  </div>
+  <button type='submit' class='btn btn-success'>Submit</button>
+</form>
