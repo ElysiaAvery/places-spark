@@ -18,8 +18,7 @@ _None_
 
 ## Support and contact details
 
-* _Caleb Stevenson: cgrahamstevenson@gmail.com_
-* _Satchel Grant: grantsrb@gmail.com_
+* _Elysia Nason: elysia.avery@gmail.com_
 
 ## Technologies Used
 
